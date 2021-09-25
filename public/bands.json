@@ -4,6 +4,7 @@
         "name":"Artcell",
         "type":"Heavy metal",
         "country":"Bangladesh",
+        "rating":4,
         "cost":7000
     },
     {
@@ -11,6 +12,7 @@
         "name":"Warfaze",
         "type":"Heavy metal",
         "country":"Bangladesh",
+        "rating":3,
         "cost":8000
     },
     {
@@ -18,15 +20,18 @@
         "name":"Aurthohin",
         "type":"Groove metal",
         "country":"Bangladesh",
+        "rating":3,
         "cost":6000},
     {
         "image":"https://m.media-amazon.com/images/I/51Gl+K4bBOL.jpg","name":"Linkin Park",
         "type":"Alternative Rock",
         "country":"America",
+        "rating":5,
         "cost":20000},
     {
         "image":"https://i.pinimg.com/474x/50/65/69/5065691e963031010dd563071c95e82e.jpg","name":"Scorpions","type":"Hard Rock",
         "country":"West Germany",
+        "rating":5,
         "cost":25000
     },
     {
@@ -34,12 +39,14 @@
         "name":"Miles",
         "type":"Pop Rock",
         "country":"Bangladesh",
+        "rating":2,
         "cost":9000
     },
     {
         "image":"https://m.media-amazon.com/images/I/81M14agpKLL._SS500_.jpg","name":"Nagar Baul",
         "type":"Psychedelic rock",
         "country":"Bangladesh",
+        "rating":5,
         "cost":10000
         }
     ]

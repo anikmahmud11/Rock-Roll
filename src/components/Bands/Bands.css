@@ -1,0 +1,21 @@
+.band{
+    background-color:rgba(9, 133, 139, 0.692) ;
+    border: 2px solid rgb(15, 219, 255);
+    margin: 30px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.band img{
+    width: 200px;
+    padding: 10px;
+}
+.add-to-cart-btn{
+    border: 1px solid lightskyblue;
+  background-color: #1cbd6c;
+  border-radius: 8px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
