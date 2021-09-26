@@ -5,6 +5,7 @@ import { faAddressBook ,faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 import './Bands.css';
 import Rating from 'react-rating';
 const Bands = (props) => {
+    // console.log(props);
     const {image, name, type, country, cost, rating}=props.band;
     const icon1 = <FontAwesomeIcon icon={faShare} />
     const icon2 = <FontAwesomeIcon icon={faAddressBook} />
@@ -16,12 +17,12 @@ const Bands = (props) => {
             <h4>Band-Type : {type}</h4>
             <h4>Origin : {country}</h4>
             <h4>Salary : {cost}</h4>
-            <h4>Rating : <Rating 
+            <h4 className="rating"> Rating : <Rating 
             initialRating={rating}
             emptySymbol="far fa-star"
             fullSymbol="fas fa-star"
             readonly></Rating></h4>
-            <button className="add-to-cart-btn">{icon3} Add to Cart</button>
+            <button onClick={()=>props.handleAddToCart(props.band)} className="add-to-cart-btn">{icon3} Add to Cart</button>
             <br />
             <br />
 

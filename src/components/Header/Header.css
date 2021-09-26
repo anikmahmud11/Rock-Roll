@@ -1,21 +1,11 @@
 .header-style{
-    width: 50%;
-    text-align: center;
-    color: blue;
-    
-   
-}
-.container{
+    margin: 0px;
     width: 100%;
     text-align: center;
-    display: flex;
-    margin-top: 20px;
+    color: rgb(240, 135, 65);
 }
-.cart-container{
-    background-color: rgba(61, 117, 136, 0.712);
-   border: 1px solid rgb(23, 85, 201);
-   border-radius: 10px;
-    width: 25%;
-    margin: 20px;
-    color: white;
+.header-style h1{
+    margin: 0px;
+    padding-top: 10px;
 }
+
