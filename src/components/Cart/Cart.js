@@ -25,7 +25,7 @@ const Cart = (props) => {
              <h2>{icon1} Cart</h2>
            <h4>{icon2} Band added : {props.cart.length} </h4>  
            <h4>{icon3} Total Cost : $ <span>{total}</span></h4>
-           <div>{list}</div> 
+           <div className="band-names">{list}</div> 
            <p></p>
         </div>
     );
