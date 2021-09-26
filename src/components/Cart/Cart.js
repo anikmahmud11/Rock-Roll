@@ -1,11 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart} from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart,faUser,faDollarSign} from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
 // import Bands from '../Bands/Bands';
 const Cart = (props) => {
     // console.log(props.cart);
     const icon1 = <FontAwesomeIcon icon={faShoppingCart} />
+    const icon2 = <FontAwesomeIcon icon={faUser} />
+    const icon3 = <FontAwesomeIcon icon={faDollarSign} />
     const{cart}=props;
     // console.log(props.cart);
     let total = 0 ;
@@ -21,8 +23,8 @@ const Cart = (props) => {
     return (
         <div>
              <h2>{icon1} Cart</h2>
-           <h4>Band added : {props.cart.length} </h4>  
-           <h4>Total Cost : $ <span>{total}</span></h4>
+           <h4>{icon2} Band added : {props.cart.length} </h4>  
+           <h4>{icon3} Total Cost : $ <span>{total}</span></h4>
            <div>{list}</div> 
            <p></p>
         </div>
